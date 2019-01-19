@@ -9,10 +9,10 @@
  * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
  * the Software, and to permit persons to whom the Software is furnished to do so,
  * subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in all
  * copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
  * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
@@ -29,9 +29,9 @@ namespace dragonBones {
         private _binaryOffset: number;
         private _binary: ArrayBuffer;
         private _intArrayBuffer: Int16Array;
-        private _floatArrayBuffer: Float32Array;
-        private _frameIntArrayBuffer: Int16Array;
-        private _frameFloatArrayBuffer: Float32Array;
+        protected _floatArrayBuffer: Float32Array;
+        protected _frameIntArrayBuffer: Int16Array;
+        protected _frameFloatArrayBuffer: Float32Array;
         private _frameArrayBuffer: Int16Array;
         private _timelineArrayBuffer: Uint16Array;
 
