@@ -331,10 +331,8 @@ namespace dragonBones {
 // add export huhaitao 2019-01-19
 declare let global: any;
 
-if (typeof global === 'undefined' && typeof window !== 'undefined') {
-    global = window;
-}
-
-if (typeof global !== "undefined") {
+if (typeof global !== 'undefined') {
     global.dragonBones = dragonBones;
+} else if (typeof window !== 'undefined') {
+    (window as any).dragonBones = dragonBones;
 }
