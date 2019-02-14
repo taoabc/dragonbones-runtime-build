@@ -24,7 +24,6 @@
 		"out"
 	],
 	"files": [
-		"./libs/pixi.js.d.ts",
 		"../../DragonBones/src/dragonBones/modules.ts",
 
 		"../../DragonBones/src/dragonBones/core/DragonBones.ts",
@@ -62,7 +61,7 @@
 		"../../DragonBones/src/dragonBones/animation/AnimationState.ts",
 		"../../DragonBones/src/dragonBones/animation/BaseTimelineState.ts",
 		"../../DragonBones/src/dragonBones/animation/TimelineState.ts",
-		
+
 		"../../DragonBones/src/dragonBones/event/EventObject.ts",
 		"../../DragonBones/src/dragonBones/event/IEventDispatcher.ts",
 
